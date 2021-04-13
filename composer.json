@@ -1,5 +1,5 @@
 {
-    "name": "core/cryptolibinterface",
+    "name": "core-cryptolib/cryptointerface",
     "description": "Core Crypto Lib interface",
     "keywords": ["template", "composer", "package"],
     "license": "GPL-1.0-only",
