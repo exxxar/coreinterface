@@ -9,7 +9,7 @@
             "email": "exxxar@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=7.1",
         "symfony/http-client": "^5.2"
