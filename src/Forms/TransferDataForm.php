@@ -9,7 +9,7 @@ class TransferDataForm
     private $type;
     private $data;
 
-    public function __construct($type, $base64data)
+    public function __construct($type=null, $base64data=null)
     {
         $this->type = $type;
         $this->data = base64_encode($base64data);

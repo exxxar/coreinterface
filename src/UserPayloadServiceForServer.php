@@ -5,6 +5,7 @@ namespace Core\CryptoInterface;
 
 
 use Buonzz\Template\Forms\TransferDataForm;
+use Buonzz\Template\Forms\TransferForm;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class UserPayloadServiceForServer
@@ -64,7 +65,7 @@ class UserPayloadServiceForServer
         return $this->getContent($response);
     }
 
-    public function handler(TransferDataForm $transfer): array
+    public function handler(TransferForm $transfer): array
     {
         $response = $this->client->request(
             'POST',
